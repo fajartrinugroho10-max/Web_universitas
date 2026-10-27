@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#002244,#003366ef);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ /* Background gambar + gradasi */
+
+        background:
+            linear-gradient(135deg, rgba(189, 219, 199, 0.315), rgba(155, 152, 152, 0.247)),
+            url("loginpg.png");
+        background-size: cover;
+        background-position: center;
+    }
+
+    
+
+    /* Animasi background */
+    @keyframes bgMove {
+        
+        100% {
+            background-position: center;
+        }
+    }
+
+
+.box {
+    background: rgba(255, 255, 255, 0.24);
+    padding: 25px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    margin-top: 10px;
+    display: flex;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #43e97b;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2feded;
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+a {
+    color: #43e97b;
+    text-decoration: none;
+}
+.collor{
+    color:white;
+}
+</style>
+</head>
+
+<body>
+    
+
+
+
+    <div class="box">
+    <h2>Login</h2>
+    <marquee behavior="scroll">
+    ✨ Silakan masuk untuk melanjutkan ✨
+</marquee>
+
+
+<form>
+    <label>Nama Lengkap</label>
+    <input type="text" required>
+
+    <label>Password</label>
+    <input type="password" required>
+
+    <button type="submit"><a href="../Sudah login/hommepage.html" class="collor">Login</a></button>
+</form>
+
+<p>Belum punya akun? 
+<a href="Registrasi.html">Daftar</a>
+</p>
+
+</div>
+
+</body>
+</html>
